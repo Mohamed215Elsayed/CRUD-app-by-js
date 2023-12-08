@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD Products</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Products</h1>
+        <div class="form">
+            <input type="text"  id="ProductName" placeholder="Product Name">
+            <input type="number"  id="ProductPrice" placeholder="Product price">
+            <input type="text"  id="ProductCategory" placeholder="Product Category">
+            <input type="text"  id="ProductDescription" placeholder="Product Description">
+            <div class="buttons">
+                <button type="submit"  id="AddBtn">Add Product</button>
+                <button type="submit" id="UpdateBtn" class="hide" >Update Product</button>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product price</th>
+                <th>Product Category</th>
+                <th>Product Description</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+            <tbody class="info" id="info">
+            </tbody>
+        </table>
+    </div>
+    <!-- ******************** -->
+    <script src="js/main.js"></script>
+</body>
+</html>
